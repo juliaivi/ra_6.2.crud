@@ -1,38 +1,70 @@
+li {
+  list-style-type: none;
+}
+
 .App {
-  text-align: center;
+ margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header__title_box {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.btn:hover {
+  background: rgb(73, 204, 73);
+  border: 1px solid rgb(73, 204, 73);
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 21px;
+}
+
+.byn__reboot {
+  margin: auto 11px;
+}
+
+.btn-add {
+  position: relative;
+  left: -53px;
+  bottom: 28px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.btn-add:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.item {
+  position: relative;
+  min-width: 300px;
+  display: flex;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lists__box {
+  display: flex;
 }
+
+.btn__close{
+  position: absolute;
+  top: -24px;
+  right: -19px;
+}
+
+.btn__close:hover {
+ background: white;
+ color: red;
+ border: 1px solid red;
+}
+
+.form__textarea {
+  padding: 10px;
+  resize: none;
+}
+
+
